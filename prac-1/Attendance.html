@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Attendance Report</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 30px;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 30px;
+    }
+
+    table {
+      width: 90%;
+      margin: auto;
+      border-collapse: collapse;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 12px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #0074c7;
+      color: white;
+      font-weight: bold;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    .subject-list {
+      width: 90%;
+      margin: 40px auto;
+      font-size: 16px;
+    }
+
+    .subject-list h3 {
+      margin-bottom: 10px;
+    }
+
+    .subject-list ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>📊 Lecture Gross Attendance of Semester 3 - 24%</h2>
+
+  <table>
+    <tr>
+      <th>Course</th>
+      <th>Class Type</th>
+      <th>Present/Total</th>
+      <th>Percentage</th>
+    </tr>
+    <tr><td>CEUE203 / OOP</td><td>LECT</td><td>4 / 15</td><td>26%</td></tr>
+    <tr><td>CEUE203 / OOP</td><td>LAB</td><td>1 / 2</td><td>50%</td></tr>
+    <tr><td>CSUC201 / FDSA</td><td>LECT</td><td>5 / 25</td><td>20%</td></tr>
+    <tr><td>CSUC201 / FDSA</td><td>LAB</td><td>2 / 2</td><td>100%</td></tr>
+    <tr><td>HSUV201 / CPI</td><td>LAB</td><td>2 / 5</td><td>40%</td></tr>
+    <tr><td>ITUC201 / FCN</td><td>LECT</td><td>5 / 21</td><td>23%</td></tr>
+    <tr><td>ITUC201 / FCN</td><td>LAB</td><td>1 / 2</td><td>50%</td></tr>
+    <tr><td>ITUE203 / WDF</td><td>LECT</td><td>5 / 15</td><td>33%</td></tr>
+    <tr><td>ITUE203 / WDF</td><td>LAB</td><td>3 / 5</td><td>60%</td></tr>
+    <tr><td>MSUD203 / DM</td><td>LECT</td><td>3 / 14</td><td>21%</td></tr>
+  </table>
+
+  <section class="subject-list">
+    <h3>📘 Subject Full Forms:</h3>
+    <ul>
+      <li><strong>OOP</strong> – Object Oriented Programming</li>
+      <li><strong>FDSA</strong> – Fundamentals of Data Structures and Algorithms</li>
+      <li><strong>CPI</strong> – Creativity, Problem Solving and Innovations</li>
+      <li><strong>FCN</strong> – Fundamentals of Computer Networks</li>
+      <li><strong>WDF</strong> – Web Development Fundamentals</li>
+      <li><strong>DM</strong> – Discrete Maths</li>
+    </ul>
+  </section>
+
+</body>
+</html>
